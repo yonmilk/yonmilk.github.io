@@ -1,3 +1,6 @@
+---
+---
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -138,6 +141,12 @@ body {
     border-radius: 16px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
     cursor: pointer;
 }
 
@@ -241,6 +250,146 @@ body {
 .footer p {
     color: #6e6e73;
     font-size: 14px;
+}
+
+/* Post Styles */
+.post-content {
+    padding: 60px 0;
+}
+
+.post-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.post-meta {
+    margin-bottom: 20px;
+}
+
+.post-category {
+    display: inline-block;
+    background-color: #f5f5f7;
+    padding: 6px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #1d1d1f;
+    margin-right: 16px;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #6e6e73;
+}
+
+.post-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+}
+
+.post-excerpt {
+    font-size: 20px;
+    color: #6e6e73;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.post-body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #1d1d1f;
+}
+
+.post-body h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 40px 0 20px;
+    color: #1d1d1f;
+}
+
+.post-body h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 32px 0 16px;
+    color: #1d1d1f;
+}
+
+.post-body p {
+    margin-bottom: 20px;
+}
+
+.post-body ul, .post-body ol {
+    margin: 20px 0;
+    padding-left: 24px;
+}
+
+.post-body li {
+    margin-bottom: 8px;
+}
+
+.post-body blockquote {
+    border-left: 4px solid #007aff;
+    padding-left: 24px;
+    margin: 24px 0;
+    font-style: italic;
+    color: #6e6e73;
+}
+
+.post-body code {
+    background-color: #f5f5f7;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", Monaco, Consolas, monospace;
+    font-size: 16px;
+}
+
+.post-body pre {
+    background-color: #f5f5f7;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 24px 0;
+}
+
+.post-body pre code {
+    background: none;
+    padding: 0;
+}
+
+.post-footer {
+    max-width: 800px;
+    margin: 60px auto 0;
+    padding-top: 40px;
+    border-top: 1px solid #e8e8ed;
+}
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.post-nav-prev,
+.post-nav-next {
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.post-nav-prev:hover,
+.post-nav-next:hover {
+    opacity: 0.7;
 }
 
 /* Responsive Design */

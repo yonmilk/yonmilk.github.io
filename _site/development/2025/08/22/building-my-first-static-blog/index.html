@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building my first static blog - YONMILK</title>
+    <meta name="description" content="The process of creating a static blog and why I chose this approach.">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="YONMILK" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-menu">
+                <a href="/work" class="nav-item">WORK</a>
+                <a href="/life" class="nav-item">LIFE</a>
+                <a href="/profile" class="nav-item">PROFILE</a>
+            </div>
+            <div class="nav-brand">
+                <a href="/" class="brand-link">YONMILK</a>
+            </div>
+            <div class="nav-social">
+                <a href="https://github.com/yonmilk" class="github-link" target="_blank">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <article class="post-content">
+    <div class="container">
+        <header class="post-header">
+            <div class="post-meta">
+                <span class="post-category">Development</span>
+                <time class="post-date">August 22, 2025</time>
+            </div>
+            <h1 class="post-title">Building my first static blog</h1>
+            
+            <div class="post-excerpt">The process of creating a static blog and why I chose this approach.</div>
+            
+        </header>
+        
+        <div class="post-body">
+            <h1 id="building-my-first-static-blog">Building My First Static Blog</h1>
+
+<p>After years of using various blogging platforms, I decided it was time to build something myself. Here’s why I chose to go the static site route and what I learned in the process.</p>
+
+<h2 id="why-static">Why Static?</h2>
+
+<h3 id="performance">Performance</h3>
+<p>Static sites are incredibly fast. No database queries, no server processing – just pure HTML, CSS, and JavaScript served directly to the browser.</p>
+
+<h3 id="security">Security</h3>
+<p>With no database or server-side processing, the attack surface is minimal. Static sites are inherently more secure.</p>
+
+<h3 id="simplicity">Simplicity</h3>
+<p>No need to worry about server maintenance, database backups, or plugin updates. Just focus on content.</p>
+
+<h3 id="cost">Cost</h3>
+<p>Hosting is cheap (or free) with services like GitHub Pages, Netlify, or Vercel.</p>
+
+<h2 id="technology-choices">Technology Choices</h2>
+
+<h3 id="jekyll">Jekyll</h3>
+<p>I chose Jekyll for its:</p>
+<ul>
+  <li>Native GitHub Pages support</li>
+  <li>Mature ecosystem</li>
+  <li>Liquid templating</li>
+  <li>Built-in blog structure</li>
+</ul>
+
+<h3 id="design-approach">Design Approach</h3>
+<p>I wanted something clean and inspired by Apple’s design language:</p>
+<ul>
+  <li>Minimal color palette</li>
+  <li>Clean typography</li>
+  <li>Card-based layouts</li>
+  <li>Responsive design</li>
+</ul>
+
+<h2 id="the-build-process">The Build Process</h2>
+
+<h3 id="1-structure-planning">1. Structure Planning</h3>
+<p>First, I mapped out the site structure:</p>
+<ul>
+  <li>Home page with post grid</li>
+  <li>Individual post pages</li>
+  <li>Navigation and footer</li>
+  <li>Responsive layouts</li>
+</ul>
+
+<h3 id="2-styling">2. Styling</h3>
+<p>I focused on:</p>
+<ul>
+  <li>Typography hierarchy</li>
+  <li>Consistent spacing</li>
+  <li>Hover effects and transitions</li>
+  <li>Mobile-first responsive design</li>
+</ul>
+
+<h3 id="3-content-strategy">3. Content Strategy</h3>
+<p>Planning for different post types:</p>
+<ul>
+  <li>Technical tutorials</li>
+  <li>Design insights</li>
+  <li>Personal reflections</li>
+  <li>Project showcases</li>
+</ul>
+
+<h2 id="challenges-faced">Challenges Faced</h2>
+
+<h3 id="learning-liquid-templating">Learning Liquid Templating</h3>
+<p>Coming from modern JavaScript frameworks, Liquid felt different but proved quite powerful for static site generation.</p>
+
+<h3 id="css-organization">CSS Organization</h3>
+<p>Without a CSS framework, I had to think carefully about organizing styles for maintainability.</p>
+
+<h3 id="image-optimization">Image Optimization</h3>
+<p>Static sites require more manual work for image optimization, but the performance benefits are worth it.</p>
+
+<h2 id="deployment">Deployment</h2>
+
+<p>GitHub Pages makes deployment incredibly simple:</p>
+<ol>
+  <li>Push to main branch</li>
+  <li>GitHub builds and deploys automatically</li>
+  <li>Site is live at username.github.io</li>
+</ol>
+
+<h2 id="whats-next">What’s Next</h2>
+
+<p>Plans for future improvements:</p>
+<ul>
+  <li>Add search functionality</li>
+  <li>Implement dark mode</li>
+  <li>Add comment system</li>
+  <li>Optimize for Core Web Vitals</li>
+</ul>
+
+<p>Building a static blog was a great learning experience and reminded me why I love web development – the ability to create something from nothing with just code!</p>
+
+        </div>
+        
+        <footer class="post-footer">
+            <div class="post-nav">
+                
+                <a href="/life/2025/08/21/daily-reflections-and-observations/" class="post-nav-prev">
+                    ← Daily reflections and observations
+                </a>
+                
+                
+                <a href="/design/2025/08/23/what-i-learned-about-minimal-design/" class="post-nav-next">
+                    What I learned about minimal design →
+                </a>
+                
+            </div>
+        </footer>
+    </div>
+</article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 YONMILK. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

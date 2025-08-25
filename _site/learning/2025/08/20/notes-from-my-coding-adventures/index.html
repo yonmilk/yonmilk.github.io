@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes from my coding adventures - YONMILK</title>
+    <meta name="description" content="Lessons learned, bugs squashed, and aha moments from recent coding sessions.">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="YONMILK" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-menu">
+                <a href="/work" class="nav-item">WORK</a>
+                <a href="/life" class="nav-item">LIFE</a>
+                <a href="/profile" class="nav-item">PROFILE</a>
+            </div>
+            <div class="nav-brand">
+                <a href="/" class="brand-link">YONMILK</a>
+            </div>
+            <div class="nav-social">
+                <a href="https://github.com/yonmilk" class="github-link" target="_blank">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <article class="post-content">
+    <div class="container">
+        <header class="post-header">
+            <div class="post-meta">
+                <span class="post-category">Learning</span>
+                <time class="post-date">August 20, 2025</time>
+            </div>
+            <h1 class="post-title">Notes from my coding adventures</h1>
+            
+            <div class="post-excerpt">Lessons learned, bugs squashed, and aha moments from recent coding sessions.</div>
+            
+        </header>
+        
+        <div class="post-body">
+            <h1 id="notes-from-my-coding-adventures">Notes from My Coding Adventures</h1>
+
+<p>Every coding session teaches something new. Here are some notes and lessons from recent development work.</p>
+
+<h2 id="todays-bug-hunt">Today’s Bug Hunt</h2>
+
+<h3 id="the-case-of-the-mysterious-css-overflow">The Case of the Mysterious CSS Overflow</h3>
+
+<p><strong>Problem</strong>: Content was mysteriously cutting off on mobile devices.</p>
+
+<p><strong>Investigation</strong>:</p>
+<ul>
+  <li>Checked responsive breakpoints ✓</li>
+  <li>Verified container widths ✓</li>
+  <li>Examined z-index issues ✓</li>
+  <li>Found it! A <code class="language-plaintext highlighter-rouge">white-space: nowrap</code> causing horizontal overflow</li>
+</ul>
+
+<p><strong>Lesson</strong>: Sometimes the simplest properties cause the most confusing bugs.</p>
+
+<h3 id="javascript-scope-gotcha">JavaScript Scope Gotcha</h3>
+
+<p><strong>Problem</strong>: Variables weren’t updating as expected in a loop.</p>
+
+<p><strong>Discovery</strong>: Classic closure issue in a <code class="language-plaintext highlighter-rouge">setTimeout</code> callback.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Problem</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">items</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">),</span> <span class="mi">1000</span><span class="p">);</span> <span class="c1">// Always logs items.length</span>
+<span class="p">}</span>
+
+<span class="c1">// Solution  </span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">items</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">setTimeout</span><span class="p">((</span><span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">index</span><span class="p">),</span> <span class="mi">1000</span><span class="p">,</span> <span class="nx">i</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Lesson</strong>: <code class="language-plaintext highlighter-rouge">let</code> vs <code class="language-plaintext highlighter-rouge">var</code> matters, but closures can still trip you up.</p>
+
+<h2 id="new-things-learned">New Things Learned</h2>
+
+<h3 id="git-aliases-save-time">Git Aliases Save Time</h3>
+
+<p>Set up some useful Git shortcuts:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> alias.co checkout
+git config <span class="nt">--global</span> alias.br branch  
+git config <span class="nt">--global</span> alias.ci commit
+git config <span class="nt">--global</span> alias.st status
+</code></pre></div></div>
+
+<p>Small efficiency gains add up over time.</p>
+
+<h3 id="css-grid-is-amazing">CSS Grid is Amazing</h3>
+
+<p>Finally dove deeper into CSS Grid. The ability to create complex layouts with clean, semantic HTML is incredible.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.grid-container</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">grid</span><span class="p">;</span>
+  <span class="py">grid-template-columns</span><span class="p">:</span> <span class="m">1</span><span class="n">fr</span> <span class="m">2</span><span class="n">fr</span> <span class="m">1</span><span class="n">fr</span><span class="p">;</span>
+  <span class="py">grid-template-rows</span><span class="p">:</span> <span class="nb">auto</span> <span class="m">1</span><span class="n">fr</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="py">gap</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Much cleaner than the float and flexbox workarounds I used to rely on.</p>
+
+<h2 id="problem-solving-patterns">Problem-Solving Patterns</h2>
+
+<h3 id="the-rubber-duck-method-works">The Rubber Duck Method Works</h3>
+
+<p>Explaining problems out loud (even to a rubber duck) really does help. Speaking forces you to organize thoughts clearly.</p>
+
+<h3 id="break-it-down">Break It Down</h3>
+
+<p>When stuck on a complex problem:</p>
+<ol>
+  <li>Identify the smallest possible step</li>
+  <li>Get that working first</li>
+  <li>Build up incrementally</li>
+  <li>Test frequently</li>
+</ol>
+
+<h3 id="read-the-error-messages">Read the Error Messages</h3>
+
+<p>Sounds obvious, but I catch myself jumping to solutions before carefully reading what the error actually says.</p>
+
+<h2 id="tools-and-techniques">Tools and Techniques</h2>
+
+<h3 id="browser-devtools-gems">Browser DevTools Gems</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">console.table()</code> for displaying arrays/objects</li>
+  <li><code class="language-plaintext highlighter-rouge">$0</code> to reference the currently selected element</li>
+  <li>Network tab throttling to test slow connections</li>
+  <li>Lighthouse for performance audits</li>
+</ul>
+
+<h3 id="keyboard-shortcuts-that-changed-my-life">Keyboard Shortcuts That Changed My Life</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Cmd/Ctrl + D</code> - Select next occurrence (VS Code)</li>
+  <li><code class="language-plaintext highlighter-rouge">Cmd/Ctrl + Shift + P</code> - Command palette</li>
+  <li><code class="language-plaintext highlighter-rouge">Alt + Click</code> - Multiple cursors</li>
+  <li><code class="language-plaintext highlighter-rouge">Cmd/Ctrl + /</code> - Toggle line comment</li>
+</ul>
+
+<h2 id="reflection">Reflection</h2>
+
+<p>The more I code, the more I realize how much there is to learn. But that’s what makes it exciting – there’s always another problem to solve, another technique to master, another “aha!” moment waiting.</p>
+
+<p>The key is embracing the learning process and celebrating small victories along the way.</p>
+
+<h2 id="tomorrows-goals">Tomorrow’s Goals</h2>
+
+<ul>
+  <li>Refactor that messy component I wrote last week</li>
+  <li>Learn about CSS custom properties</li>
+  <li>Practice more Git branching strategies</li>
+  <li>Write better commit messages</li>
+</ul>
+
+<p>The adventure continues!</p>
+
+        </div>
+        
+        <footer class="post-footer">
+            <div class="post-nav">
+                
+                
+                <a href="/life/2025/08/21/daily-reflections-and-observations/" class="post-nav-next">
+                    Daily reflections and observations →
+                </a>
+                
+            </div>
+        </footer>
+    </div>
+</article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 YONMILK. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-26T08:36:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">YONMILK</title><subtitle>Personal blog sharing thoughts, experiences, and discoveries</subtitle><entry><title type="html">Welcome to my blog</title><link href="http://localhost:4000/featured/2025/08/25/welcome-to-my-blog/" rel="alternate" type="text/html" title="Welcome to my blog" /><published>2025-08-25T00:00:00+09:00</published><updated>2025-08-25T00:00:00+09:00</updated><id>http://localhost:4000/featured/2025/08/25/welcome-to-my-blog</id><content type="html" xml:base="http://localhost:4000/featured/2025/08/25/welcome-to-my-blog/"><![CDATA[<h1 id="welcome-to-my-blog">Welcome to My Blog</h1>
+
+<p>Hello and welcome! I’m excited to share this space with you where I’ll be documenting my journey, thoughts, and discoveries.</p>
+
+<h2 id="what-you-can-expect">What You Can Expect</h2>
+
+<p>This blog will be a mix of:</p>
+
+<ul>
+  <li><strong>Technology insights</strong> - Sharing what I learn about web development, programming, and tech trends</li>
+  <li><strong>Design thoughts</strong> - Exploring minimal design principles and user experience</li>
+  <li><strong>Life reflections</strong> - Personal observations and daily musings</li>
+  <li><strong>Learning notes</strong> - Documentation of my coding adventures and new skills</li>
+</ul>
+
+<h2 id="why-i-started-this-blog">Why I Started This Blog</h2>
+
+<p>I believe in the power of sharing knowledge and experiences. Writing helps me organize my thoughts and hopefully provides value to others on similar journeys.</p>
+
+<h2 id="lets-connect">Let’s Connect</h2>
+
+<p>Feel free to reach out if you have questions or want to discuss any of the topics I cover. I’m always eager to learn from others and engage in meaningful conversations.</p>
+
+<p>Thank you for visiting, and I hope you find something valuable here!</p>]]></content><author><name></name></author><category term="Featured" /><summary type="html"><![CDATA[This is where I share my thoughts, experiences, and discoveries. Join me on this journey of learning and growth.]]></summary></entry><entry><title type="html">My journey into web development</title><link href="http://localhost:4000/technology/2025/08/24/my-journey-into-web-development/" rel="alternate" type="text/html" title="My journey into web development" /><published>2025-08-24T00:00:00+09:00</published><updated>2025-08-24T00:00:00+09:00</updated><id>http://localhost:4000/technology/2025/08/24/my-journey-into-web-development</id><content type="html" xml:base="http://localhost:4000/technology/2025/08/24/my-journey-into-web-development/"><![CDATA[<h1 id="my-journey-into-web-development">My Journey Into Web Development</h1>
+
+<p>When I first started learning web development, I had no idea what I was getting into. What seemed like a simple way to create websites turned into a fascinating journey of continuous learning.</p>
+
+<h2 id="the-beginning">The Beginning</h2>
+
+<p>It all started with curiosity about how websites work. I remember viewing the source of my favorite sites and being amazed by the code that created what I saw on screen.</p>
+
+<p>My first steps:</p>
+<ul>
+  <li>Learning HTML basics</li>
+  <li>Understanding CSS styling</li>
+  <li>Getting frustrated with JavaScript (we’ve all been there!)</li>
+</ul>
+
+<h2 id="key-discoveries">Key Discoveries</h2>
+
+<h3 id="1-the-power-of-modern-frameworks">1. The Power of Modern Frameworks</h3>
+
+<p>Moving from vanilla HTML/CSS/JS to modern frameworks was a game-changer. The component-based thinking changed how I approach building interfaces.</p>
+
+<h3 id="2-the-importance-of-developer-experience">2. The Importance of Developer Experience</h3>
+
+<p>Good tooling makes all the difference. From code editors with intelligent autocomplete to build tools that handle optimization, the developer experience has come so far.</p>
+
+<h3 id="3-the-community">3. The Community</h3>
+
+<p>The web development community is incredibly welcoming and helpful. Open source projects, tutorials, and forums have been invaluable resources.</p>
+
+<h2 id="current-focus">Current Focus</h2>
+
+<p>These days I’m diving deeper into:</p>
+<ul>
+  <li>Static site generators like Jekyll</li>
+  <li>Modern CSS techniques</li>
+  <li>Performance optimization</li>
+  <li>Accessibility best practices</li>
+</ul>
+
+<h2 id="whats-next">What’s Next</h2>
+
+<p>The journey continues! Next on my learning list:</p>
+<ul>
+  <li>Advanced JavaScript patterns</li>
+  <li>Web performance metrics</li>
+  <li>Progressive Web Apps</li>
+</ul>
+
+<p>The best part about web development? There’s always something new to learn!</p>]]></content><author><name></name></author><category term="Technology" /><summary type="html"><![CDATA[How I started learning web development and what I discovered along the way.]]></summary></entry><entry><title type="html">What I learned about minimal design</title><link href="http://localhost:4000/design/2025/08/23/what-i-learned-about-minimal-design/" rel="alternate" type="text/html" title="What I learned about minimal design" /><published>2025-08-23T00:00:00+09:00</published><updated>2025-08-23T00:00:00+09:00</updated><id>http://localhost:4000/design/2025/08/23/what-i-learned-about-minimal-design</id><content type="html" xml:base="http://localhost:4000/design/2025/08/23/what-i-learned-about-minimal-design/"><![CDATA[<h1 id="what-i-learned-about-minimal-design">What I Learned About Minimal Design</h1>
+
+<p>Minimal design isn’t just about making things look clean – it’s a philosophy that prioritizes function over form while still maintaining visual appeal.</p>
+
+<h2 id="core-principles">Core Principles</h2>
+
+<h3 id="less-is-more">Less is More</h3>
+<p>Every element should serve a purpose. If it doesn’t add value, it should be removed.</p>
+
+<h3 id="white-space-is-your-friend">White Space is Your Friend</h3>
+<p>White space (or negative space) gives content room to breathe and helps guide the user’s attention to what matters most.</p>
+
+<h3 id="typography-matters">Typography Matters</h3>
+<p>With fewer visual elements, typography becomes crucial. The right font choice and hierarchy can carry the entire design.</p>
+
+<h2 id="practical-applications">Practical Applications</h2>
+
+<h3 id="in-web-design">In Web Design</h3>
+<ul>
+  <li>Clean navigation structures</li>
+  <li>Generous margins and padding</li>
+  <li>Limited color palettes</li>
+  <li>Focus on readability</li>
+</ul>
+
+<h3 id="in-user-interfaces">In User Interfaces</h3>
+<ul>
+  <li>Clear call-to-action buttons</li>
+  <li>Logical information hierarchy</li>
+  <li>Consistent spacing systems</li>
+  <li>Reduced cognitive load</li>
+</ul>
+
+<h2 id="common-mistakes">Common Mistakes</h2>
+
+<ol>
+  <li><strong>Confusing minimal with boring</strong> - Minimal can still be engaging and interesting</li>
+  <li><strong>Removing too much</strong> - Essential information shouldn’t be sacrificed for aesthetics</li>
+  <li><strong>Ignoring accessibility</strong> - Minimal doesn’t mean hard to use</li>
+  <li><strong>Inconsistent spacing</strong> - Without decorative elements, spacing becomes more noticeable</li>
+</ol>
+
+<h2 id="inspiration-sources">Inspiration Sources</h2>
+
+<p>Some of my favorite examples of minimal design:</p>
+<ul>
+  <li>Apple’s product pages</li>
+  <li>Medium’s reading experience</li>
+  <li>Stripe’s documentation</li>
+  <li>Ghost’s publishing platform</li>
+</ul>
+
+<h2 id="the-challenge">The Challenge</h2>
+
+<p>The real challenge of minimal design is knowing what to keep and what to remove. It requires deep understanding of user needs and business goals.</p>
+
+<p>As Antoine de Saint-Exupéry said: “Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.”</p>]]></content><author><name></name></author><category term="Design" /><summary type="html"><![CDATA[Exploring the principles of minimal design and how less can truly be more.]]></summary></entry><entry><title type="html">Building my first static blog</title><link href="http://localhost:4000/development/2025/08/22/building-my-first-static-blog/" rel="alternate" type="text/html" title="Building my first static blog" /><published>2025-08-22T00:00:00+09:00</published><updated>2025-08-22T00:00:00+09:00</updated><id>http://localhost:4000/development/2025/08/22/building-my-first-static-blog</id><content type="html" xml:base="http://localhost:4000/development/2025/08/22/building-my-first-static-blog/"><![CDATA[<h1 id="building-my-first-static-blog">Building My First Static Blog</h1>
+
+<p>After years of using various blogging platforms, I decided it was time to build something myself. Here’s why I chose to go the static site route and what I learned in the process.</p>
+
+<h2 id="why-static">Why Static?</h2>
+
+<h3 id="performance">Performance</h3>
+<p>Static sites are incredibly fast. No database queries, no server processing – just pure HTML, CSS, and JavaScript served directly to the browser.</p>
+
+<h3 id="security">Security</h3>
+<p>With no database or server-side processing, the attack surface is minimal. Static sites are inherently more secure.</p>
+
+<h3 id="simplicity">Simplicity</h3>
+<p>No need to worry about server maintenance, database backups, or plugin updates. Just focus on content.</p>
+
+<h3 id="cost">Cost</h3>
+<p>Hosting is cheap (or free) with services like GitHub Pages, Netlify, or Vercel.</p>
+
+<h2 id="technology-choices">Technology Choices</h2>
+
+<h3 id="jekyll">Jekyll</h3>
+<p>I chose Jekyll for its:</p>
+<ul>
+  <li>Native GitHub Pages support</li>
+  <li>Mature ecosystem</li>
+  <li>Liquid templating</li>
+  <li>Built-in blog structure</li>
+</ul>
+
+<h3 id="design-approach">Design Approach</h3>
+<p>I wanted something clean and inspired by Apple’s design language:</p>
+<ul>
+  <li>Minimal color palette</li>
+  <li>Clean typography</li>
+  <li>Card-based layouts</li>
+  <li>Responsive design</li>
+</ul>
+
+<h2 id="the-build-process">The Build Process</h2>
+
+<h3 id="1-structure-planning">1. Structure Planning</h3>
+<p>First, I mapped out the site structure:</p>
+<ul>
+  <li>Home page with post grid</li>
+  <li>Individual post pages</li>
+  <li>Navigation and footer</li>
+  <li>Responsive layouts</li>
+</ul>
+
+<h3 id="2-styling">2. Styling</h3>
+<p>I focused on:</p>
+<ul>
+  <li>Typography hierarchy</li>
+  <li>Consistent spacing</li>
+  <li>Hover effects and transitions</li>
+  <li>Mobile-first responsive design</li>
+</ul>
+
+<h3 id="3-content-strategy">3. Content Strategy</h3>
+<p>Planning for different post types:</p>
+<ul>
+  <li>Technical tutorials</li>
+  <li>Design insights</li>
+  <li>Personal reflections</li>
+  <li>Project showcases</li>
+</ul>
+
+<h2 id="challenges-faced">Challenges Faced</h2>
+
+<h3 id="learning-liquid-templating">Learning Liquid Templating</h3>
+<p>Coming from modern JavaScript frameworks, Liquid felt different but proved quite powerful for static site generation.</p>
+
+<h3 id="css-organization">CSS Organization</h3>
+<p>Without a CSS framework, I had to think carefully about organizing styles for maintainability.</p>
+
+<h3 id="image-optimization">Image Optimization</h3>
+<p>Static sites require more manual work for image optimization, but the performance benefits are worth it.</p>
+
+<h2 id="deployment">Deployment</h2>
+
+<p>GitHub Pages makes deployment incredibly simple:</p>
+<ol>
+  <li>Push to main branch</li>
+  <li>GitHub builds and deploys automatically</li>
+  <li>Site is live at username.github.io</li>
+</ol>
+
+<h2 id="whats-next">What’s Next</h2>
+
+<p>Plans for future improvements:</p>
+<ul>
+  <li>Add search functionality</li>
+  <li>Implement dark mode</li>
+  <li>Add comment system</li>
+  <li>Optimize for Core Web Vitals</li>
+</ul>
+
+<p>Building a static blog was a great learning experience and reminded me why I love web development – the ability to create something from nothing with just code!</p>]]></content><author><name></name></author><category term="Development" /><summary type="html"><![CDATA[The process of creating a static blog and why I chose this approach.]]></summary></entry><entry><title type="html">Daily reflections and observations</title><link href="http://localhost:4000/life/2025/08/21/daily-reflections-and-observations/" rel="alternate" type="text/html" title="Daily reflections and observations" /><published>2025-08-21T00:00:00+09:00</published><updated>2025-08-21T00:00:00+09:00</updated><id>http://localhost:4000/life/2025/08/21/daily-reflections-and-observations</id><content type="html" xml:base="http://localhost:4000/life/2025/08/21/daily-reflections-and-observations/"><![CDATA[<h1 id="daily-reflections-and-observations">Daily Reflections and Observations</h1>
+
+<p>Sometimes the most profound insights come from the quietest moments. Here are some recent observations from daily life.</p>
+
+<h2 id="morning-routines">Morning Routines</h2>
+
+<p>There’s something powerful about starting the day intentionally. I’ve been experimenting with different morning routines and noticed how much they influence the rest of the day.</p>
+
+<p>What works for me:</p>
+<ul>
+  <li>No phone for the first hour</li>
+  <li>A few minutes of quiet reflection</li>
+  <li>Planning three important tasks</li>
+  <li>Starting with the most challenging work</li>
+</ul>
+
+<h2 id="the-rhythm-of-creativity">The Rhythm of Creativity</h2>
+
+<p>I’ve been paying attention to my creative energy throughout the day. Interesting patterns emerge:</p>
+
+<p><strong>Morning (6-10 AM)</strong>: Best for deep, focused work
+<strong>Midday (10 AM-2 PM)</strong>: Good for collaborative tasks
+<strong>Afternoon (2-5 PM)</strong>: Perfect for administrative work<br />
+<strong>Evening (5-8 PM)</strong>: Ideal for learning and reading</p>
+
+<h2 id="small-wins-matter">Small Wins Matter</h2>
+
+<p>Today I celebrated fixing a CSS bug that had been bothering me for days. It reminded me that progress isn’t always about big achievements – sometimes it’s about solving the small problems that were blocking the path forward.</p>
+
+<h2 id="the-value-of-constraints">The Value of Constraints</h2>
+
+<p>Working within limitations often produces better results than having unlimited options. Whether it’s a design project with specific requirements or a coding challenge with certain restrictions, constraints force creativity.</p>
+
+<h2 id="digital-minimalism">Digital Minimalism</h2>
+
+<p>I’ve been reducing digital noise:</p>
+<ul>
+  <li>Unsubscribed from newsletters I never read</li>
+  <li>Cleaned up my desktop</li>
+  <li>Organized bookmarks into meaningful categories</li>
+  <li>Reduced notification interruptions</li>
+</ul>
+
+<p>The result? More mental clarity and focus.</p>
+
+<h2 id="questions-im-pondering">Questions I’m Pondering</h2>
+
+<ul>
+  <li>How do we balance productivity with presence?</li>
+  <li>What makes some learning stick while other information fades?</li>
+  <li>Why do we often overcomplicate simple solutions?</li>
+  <li>How can technology serve us better instead of distracting us?</li>
+</ul>
+
+<h2 id="tonights-gratitude">Tonight’s Gratitude</h2>
+
+<ul>
+  <li>A productive day of coding</li>
+  <li>Learning something new about Jekyll</li>
+  <li>Good coffee and quiet morning hours</li>
+  <li>The satisfaction of clean, working code</li>
+</ul>
+
+<p>These small moments and reflections add up to something bigger. Life is in the details.</p>]]></content><author><name></name></author><category term="Life" /><summary type="html"><![CDATA[Small moments and thoughts that make up the bigger picture of daily life.]]></summary></entry><entry><title type="html">Notes from my coding adventures</title><link href="http://localhost:4000/learning/2025/08/20/notes-from-my-coding-adventures/" rel="alternate" type="text/html" title="Notes from my coding adventures" /><published>2025-08-20T00:00:00+09:00</published><updated>2025-08-20T00:00:00+09:00</updated><id>http://localhost:4000/learning/2025/08/20/notes-from-my-coding-adventures</id><content type="html" xml:base="http://localhost:4000/learning/2025/08/20/notes-from-my-coding-adventures/"><![CDATA[<h1 id="notes-from-my-coding-adventures">Notes from My Coding Adventures</h1>
+
+<p>Every coding session teaches something new. Here are some notes and lessons from recent development work.</p>
+
+<h2 id="todays-bug-hunt">Today’s Bug Hunt</h2>
+
+<h3 id="the-case-of-the-mysterious-css-overflow">The Case of the Mysterious CSS Overflow</h3>
+
+<p><strong>Problem</strong>: Content was mysteriously cutting off on mobile devices.</p>
+
+<p><strong>Investigation</strong>:</p>
+<ul>
+  <li>Checked responsive breakpoints ✓</li>
+  <li>Verified container widths ✓</li>
+  <li>Examined z-index issues ✓</li>
+  <li>Found it! A <code class="language-plaintext highlighter-rouge">white-space: nowrap</code> causing horizontal overflow</li>
+</ul>
+
+<p><strong>Lesson</strong>: Sometimes the simplest properties cause the most confusing bugs.</p>
+
+<h3 id="javascript-scope-gotcha">JavaScript Scope Gotcha</h3>
+
+<p><strong>Problem</strong>: Variables weren’t updating as expected in a loop.</p>
+
+<p><strong>Discovery</strong>: Classic closure issue in a <code class="language-plaintext highlighter-rouge">setTimeout</code> callback.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Problem</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">items</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">),</span> <span class="mi">1000</span><span class="p">);</span> <span class="c1">// Always logs items.length</span>
+<span class="p">}</span>
+
+<span class="c1">// Solution  </span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">items</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">setTimeout</span><span class="p">((</span><span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">index</span><span class="p">),</span> <span class="mi">1000</span><span class="p">,</span> <span class="nx">i</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Lesson</strong>: <code class="language-plaintext highlighter-rouge">let</code> vs <code class="language-plaintext highlighter-rouge">var</code> matters, but closures can still trip you up.</p>
+
+<h2 id="new-things-learned">New Things Learned</h2>
+
+<h3 id="git-aliases-save-time">Git Aliases Save Time</h3>
+
+<p>Set up some useful Git shortcuts:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> alias.co checkout
+git config <span class="nt">--global</span> alias.br branch  
+git config <span class="nt">--global</span> alias.ci commit
+git config <span class="nt">--global</span> alias.st status
+</code></pre></div></div>
+
+<p>Small efficiency gains add up over time.</p>
+
+<h3 id="css-grid-is-amazing">CSS Grid is Amazing</h3>
+
+<p>Finally dove deeper into CSS Grid. The ability to create complex layouts with clean, semantic HTML is incredible.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.grid-container</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">grid</span><span class="p">;</span>
+  <span class="py">grid-template-columns</span><span class="p">:</span> <span class="m">1</span><span class="n">fr</span> <span class="m">2</span><span class="n">fr</span> <span class="m">1</span><span class="n">fr</span><span class="p">;</span>
+  <span class="py">grid-template-rows</span><span class="p">:</span> <span class="nb">auto</span> <span class="m">1</span><span class="n">fr</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="py">gap</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Much cleaner than the float and flexbox workarounds I used to rely on.</p>
+
+<h2 id="problem-solving-patterns">Problem-Solving Patterns</h2>
+
+<h3 id="the-rubber-duck-method-works">The Rubber Duck Method Works</h3>
+
+<p>Explaining problems out loud (even to a rubber duck) really does help. Speaking forces you to organize thoughts clearly.</p>
+
+<h3 id="break-it-down">Break It Down</h3>
+
+<p>When stuck on a complex problem:</p>
+<ol>
+  <li>Identify the smallest possible step</li>
+  <li>Get that working first</li>
+  <li>Build up incrementally</li>
+  <li>Test frequently</li>
+</ol>
+
+<h3 id="read-the-error-messages">Read the Error Messages</h3>
+
+<p>Sounds obvious, but I catch myself jumping to solutions before carefully reading what the error actually says.</p>
+
+<h2 id="tools-and-techniques">Tools and Techniques</h2>
+
+<h3 id="browser-devtools-gems">Browser DevTools Gems</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">console.table()</code> for displaying arrays/objects</li>
+  <li><code class="language-plaintext highlighter-rouge">$0</code> to reference the currently selected element</li>
+  <li>Network tab throttling to test slow connections</li>
+  <li>Lighthouse for performance audits</li>
+</ul>
+
+<h3 id="keyboard-shortcuts-that-changed-my-life">Keyboard Shortcuts That Changed My Life</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Cmd/Ctrl + D</code> - Select next occurrence (VS Code)</li>
+  <li><code class="language-plaintext highlighter-rouge">Cmd/Ctrl + Shift + P</code> - Command palette</li>
+  <li><code class="language-plaintext highlighter-rouge">Alt + Click</code> - Multiple cursors</li>
+  <li><code class="language-plaintext highlighter-rouge">Cmd/Ctrl + /</code> - Toggle line comment</li>
+</ul>
+
+<h2 id="reflection">Reflection</h2>
+
+<p>The more I code, the more I realize how much there is to learn. But that’s what makes it exciting – there’s always another problem to solve, another technique to master, another “aha!” moment waiting.</p>
+
+<p>The key is embracing the learning process and celebrating small victories along the way.</p>
+
+<h2 id="tomorrows-goals">Tomorrow’s Goals</h2>
+
+<ul>
+  <li>Refactor that messy component I wrote last week</li>
+  <li>Learn about CSS custom properties</li>
+  <li>Practice more Git branching strategies</li>
+  <li>Write better commit messages</li>
+</ul>
+
+<p>The adventure continues!</p>]]></content><author><name></name></author><category term="Learning" /><summary type="html"><![CDATA[Lessons learned, bugs squashed, and aha moments from recent coding sessions.]]></summary></entry></feed>
