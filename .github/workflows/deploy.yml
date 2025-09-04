@@ -35,8 +35,64 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug - Check configuration
+        run: |
+          echo "=== Next.js Configuration ==="
+          cat next.config.ts
+          echo ""
+          echo "=== Package.json scripts ==="
+          cat package.json | grep -A 5 '"scripts"'
+          echo ""
+          echo "=== Next.js version ==="
+          npm list next
+
       - name: Build with Next.js
-        run: npm run build
+        run: |
+          echo "=== Running build ==="
+          npm run build
+          echo ""
+          echo "=== Build complete. Checking directories ==="
+          ls -la
+          echo ""
+          
+          # Check various possible output directories
+          for dir in out .next dist build public; do
+            if [ -d "$dir" ]; then
+              echo "📁 Found $dir directory:"
+              ls -la "$dir/" | head -10
+            fi
+          done
+
+      # Ensure out directory exists or create it from .next
+      - name: Prepare export directory
+        run: |
+          if [ ! -d "out" ]; then
+            echo "[!] 'out' directory not found after build"
+            echo "Attempting alternative export methods..."
+            
+            # Try running build with explicit export
+            echo "=== Trying: npm run build && npx next export ==="
+            npx next export 2>/dev/null || true
+            
+            # Check if out exists now
+            if [ -d "out" ]; then
+              echo "Export successful!"
+            else
+              echo "[x] Still no out directory"
+              
+              # Last resort: create minimal out directory
+              echo "Creating minimal out directory for debugging..."
+              mkdir -p out
+              echo '<!DOCTYPE html><html><head><title>Debug</title></head><body><h1>Build Issue</h1><p>The Next.js export did not complete properly. Check build logs.</p></body></html>' > out/index.html
+              
+              # Copy any static files if they exist
+              [ -d "public" ] && cp -r public/* out/ 2>/dev/null || true
+            fi
+          fi
+          
+          echo ""
+          echo "=== Final out directory contents ==="
+          ls -la out/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
