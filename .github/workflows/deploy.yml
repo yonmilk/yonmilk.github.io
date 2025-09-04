@@ -90,6 +90,12 @@ jobs:
             fi
           fi
           
+          # Ensure CNAME file is copied to out directory
+          if [ -f "public/CNAME" ]; then
+            echo "Copying CNAME to out directory..."
+            cp public/CNAME out/CNAME
+          fi
+          
           echo ""
           echo "=== Final out directory contents ==="
           ls -la out/
